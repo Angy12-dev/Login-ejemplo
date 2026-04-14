@@ -24,7 +24,7 @@ app.post('/login', async (req, res) => {
         clave: clave.trim()
     });
 
-    console.log("🔍 Resultado búsqueda:", usuario);
+    console.log("Resultado búsqueda:", usuario);
 
     if (usuario) {
         res.send('Inicio de sesión exitoso');
